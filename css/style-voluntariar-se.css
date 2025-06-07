@@ -1,0 +1,122 @@
+@import url('./style-menu-footer.min.css');
+
+main {
+    padding: 2rem;
+}
+
+.form-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"],
+#fecharDialog {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #005d7d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+dialog h3 {
+    margin-bottom: 1rem;
+    color: #005481;
+}
+
+#resumoConteudo {
+    text-align: left;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+}
+
+.form-section {
+    max-width: 700px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* sombra leve */
+    border: 1px solid #ddd;
+    /* borda sutil */
+}
+
+/* Título alinhado e destacado */
+.form-section h2 {
+    text-align: center;
+    color: #023e8a;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Espaço entre os elementos do formulário */
+.form-section form>* {
+    margin-bottom: 1rem;
+}
+
+#erroDialog {
+    border: none;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+    background: #fff0f0;
+    color: #8b0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+#erroDialog h3 {
+    color: #d00000;
+}
+
+#erroDialog ul {
+    text-align: left;
+    margin: 1rem 0;
+    padding-left: 1.2rem;
+}
+
+#erroDialog button {
+    margin-top: 1rem;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
