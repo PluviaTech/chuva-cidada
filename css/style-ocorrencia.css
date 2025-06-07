@@ -1,0 +1,28 @@
+@import url('./style-menu-footer.min.css');
+@import url('./style-voluntariar-se.min.css');
+
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+form input[type="file"] {
+    margin-top: 0.5rem;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+fieldset legend {
+    font-weight: bold;
+    padding: 0 0.5rem;
+    color: #005481;
+}
